@@ -1,0 +1,72 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.page__title {
+    margin-bottom: 20px;
+}
+
+/* エラー */
+.error__box {
+    background: #fee;
+    border: 1px solid #f99;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.error__list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.error__item {
+    color: #c00;
+}
+
+/* フォーム */
+.form__group {
+    margin-bottom: 15px;
+}
+
+.form__label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form__input,
+.form__select,
+.form__textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+.form__textarea {
+    resize: vertical;
+}
+
+.form__actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* ボタン */
+.btn {
+    padding: 8px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn--submit {
+    background: #f59e0b;
+    color: #fff;
+}
+
+.btn--back {
+    background: #ddd;
+    color: #333;
+}
