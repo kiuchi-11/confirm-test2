@@ -18,8 +18,8 @@
                 <button type="submit">検索</button>
 
                 <p class="sort__title">価格順で表示</p>
-                <select name="sort" class="sort__select" onchange="this.form.submit()">
-                    <option value="">価格で並べ替え</option>
+                <select name="sort" class="sort__select {{ request('sort') ? 'is-selected' : '' }}" onchange="this.form.submit()">
+                    <option value="" disabled selected>価格で並べ替え</option>
                     <option value="price_asc" {{ request('sort') === 'price_asc' ? 'selected' : '' }}>
                         価格が安い順
                     </option>

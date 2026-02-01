@@ -92,6 +92,19 @@
     color: #000;
 }
 
+/* ドロップダウンを開いたとき */
+.sort__select option {
+    color: #000;
+}
+
+.sort__select option:disabled {
+    color: #e0dbdb;
+}
+
+.sort__select.is-selected {
+    color: #000;
+}
+
 /* 商品一覧 */
 .main__content {
     flex: 1;
